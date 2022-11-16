@@ -1,4 +1,4 @@
-package com.priceline.hc2.bot.pubsub;
+package br.com.rezende.pubsub;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

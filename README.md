@@ -40,3 +40,7 @@ hc2bot.gcp.pubsub.emulator=0.0.0.0:8538 #GCP PubSub emulator host:port
 hc2bot.gcp.pubsub.emulator.host=[::1]:8538 #GCP PubSub emulator host:port
 hc2bot.processor.topic=test-project-processor-events #GCP PubSub Topic name
 hc2bot.processor.subscription=test-project-processor-events-sub #GCP PubSub subscription name
+
+## Test
+GET localhost:9091/publish
+GET localhost:9091/receive

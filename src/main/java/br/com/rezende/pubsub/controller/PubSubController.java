@@ -1,6 +1,6 @@
-package com.priceline.hc2.bot.pubsub.controller;
+package br.com.rezende.pubsub.controller;
 
-import com.priceline.hc2.bot.pubsub.service.PubSubService;
+import br.com.rezende.pubsub.service.PubSubService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

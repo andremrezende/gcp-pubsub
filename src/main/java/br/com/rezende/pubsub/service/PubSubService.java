@@ -1,5 +1,6 @@
-package com.priceline.hc2.bot.pubsub.service;
+package br.com.rezende.pubsub.service;
 
+import br.com.rezende.pubsub.config.PubSubConfig;
 import com.google.api.core.ApiFuture;
 import com.google.api.core.ApiFutureCallback;
 import com.google.api.core.ApiFutures;
@@ -14,7 +15,6 @@ import com.google.protobuf.ByteString;
 import com.google.pubsub.v1.ProjectSubscriptionName;
 import com.google.pubsub.v1.PubsubMessage;
 import com.google.pubsub.v1.TopicName;
-import com.priceline.hc2.bot.pubsub.config.PubSubConfig;
 import org.springframework.stereotype.Service;
 
 import java.util.concurrent.TimeUnit;

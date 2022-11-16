@@ -1,4 +1,4 @@
-package com.priceline.hc2.bot.pubsub.config;
+package br.com.rezende.pubsub.config;
 
 import com.google.api.gax.core.CredentialsProvider;
 import com.google.api.gax.core.NoCredentialsProvider;

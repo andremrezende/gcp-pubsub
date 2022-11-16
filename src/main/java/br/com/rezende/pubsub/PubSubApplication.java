@@ -1,4 +1,4 @@
-package com.priceline.hc2.bot.pubsub;
+package br.com.rezende.pubsub;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
