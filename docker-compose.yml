@@ -1,0 +1,14 @@
+version: '2'
+services:
+  pubsub:
+    image: gcr.io/google.com/cloudsdktool/cloud-sdk:latest
+    container_name: gcloud-pubsub_test_node
+    entrypoint: gcloud beta emulators pubsub start --project test-project --host-port 0.0.0.0:8538
+    ports:
+      - "8538:8538"
+    volumes:
+      - pubsub_data:/opt/data
+
+volumes:
+  pubsub_data:
+    driver: local
