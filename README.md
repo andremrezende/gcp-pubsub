@@ -43,4 +43,5 @@ example.processor.subscription=test-project-processor-events-sub #GCP PubSub sub
 
 ## Test
 GET localhost:9091/publish
+
 GET localhost:9091/receive
