@@ -24,21 +24,21 @@ import java.io.IOException;
 
 @Configuration
 public class PubSubConfig {
-    public static final String msg="{\"name\":\"hc2bot-BS-AGODA-R-g101a\",\"supplier\":\"AGORDA-R\",\"los\":\"1-7\",\"ap\":\"0-0\",\"score\":\"0-\",\"batchinSizeBeforeDelay\":\"20\",\"batchinDelayInMilliseconds\":\"2045\",\"pageSize\":\"2780\",\"destinationTopic\":\"itin_status_events\",\"messageType\":\"HotelItineraryExpired\"}";
+    public static final String msg="{\"name\":\"example-BS-AGODA-R-g101a\",\"supplier\":\"AGORDA-R\",\"los\":\"1-7\",\"ap\":\"0-0\",\"score\":\"0-\",\"batchinSizeBeforeDelay\":\"20\",\"batchinDelayInMilliseconds\":\"2045\",\"pageSize\":\"2780\",\"destinationTopic\":\"itin_status_events\",\"messageType\":\"HotelItineraryExpired\"}";
 
-    @Value("${hc2bot.gcp.project}")
+    @Value("${example.gcp.project}")
     private String gcpProject;
 
-    @Value("${hc2bot.gcp.pubsub.emulator.host}")
+    @Value("${example.gcp.pubsub.emulator.host}")
     private String emulatorHost;
 
-    @Value("${hc2bot.gcp.pubsub.emulator}")
+    @Value("${example.gcp.pubsub.emulator}")
     private String emulator;
 
-    @Value("${hc2bot.processor.subscription}")
+    @Value("${example.processor.subscription}")
     private String emulatorSubscription;
 
-    @Value("${hc2bot.processor.topic}")
+    @Value("${example.processor.topic}")
     private String topicID;
 
     @Bean

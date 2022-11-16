@@ -35,11 +35,11 @@ All the configurations are available into application.properties
 server.port=9090  #API port
 
 # GCP Configuration
-hc2bot.gcp.project=test-project #GCP Project name
-hc2bot.gcp.pubsub.emulator=0.0.0.0:8538 #GCP PubSub emulator host:port
-hc2bot.gcp.pubsub.emulator.host=[::1]:8538 #GCP PubSub emulator host:port
-hc2bot.processor.topic=test-project-processor-events #GCP PubSub Topic name
-hc2bot.processor.subscription=test-project-processor-events-sub #GCP PubSub subscription name
+example.gcp.project=test-project #GCP Project name
+example.gcp.pubsub.emulator=0.0.0.0:8538 #GCP PubSub emulator host:port
+example.gcp.pubsub.emulator.host=[::1]:8538 #GCP PubSub emulator host:port
+example.processor.topic=test-project-processor-events #GCP PubSub Topic name
+example.processor.subscription=test-project-processor-events-sub #GCP PubSub subscription name
 
 ## Test
 GET localhost:9091/publish
